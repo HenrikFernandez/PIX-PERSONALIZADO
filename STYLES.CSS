@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.hd p, h2 {
+    text-align: center; /* Centraliza h2 e p */
+}
+
+.hd p {
+    font-style: italic; /* Define o estilo itálico para o p */
+    font-weight: bold; /* Adiciona negrito para enfatizar */
+    font-size: 1.2em; /* Ajusta o tamanho da fonte */
+}   
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#portfolio .item {
+    margin-bottom: 20px;
+    
+}  
+
+#portfolio img {
+    align-items: center;
+    display: flex;
+ justify-content: center;
+    max-width: 30%; /* Ajusta a largura máxima da imagem para o tamanho do contêiner pai */ 
+    height: auto; /* Garante que a altura seja ajustada proporcionalmente à largura */
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+}
